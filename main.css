@@ -1,0 +1,146 @@
+body,
+body * {
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+.container {
+    display: inline-block;
+    width: 800px;
+    margin-left: calc((100% - 800px) / 2);
+    margin-right: calc((100% - 800px) / 2);
+    margin-top: 100px;
+    filter:drop-shadow(8px 8px 8px grey);
+}
+
+.left {
+    float: left;
+    width: 40%;
+    height: 528px;
+    background-color: #00b88f;
+    padding: 30px;
+    position: relative;
+}
+
+h1 {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 90px;
+    color: #fff;
+}
+
+p {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    color: grey;
+    margin-top: 10px;
+}
+
+img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 320px;
+
+}
+
+.right {
+    float: left;
+    width: 60%;
+    background-color: #fff;
+}
+
+.form {
+    display: inline-block;
+    width: 100%;
+    padding: 60px;
+    margin-top: 50px;
+}
+
+.form-row {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.form-row > label {
+    display: inline-block;
+    width: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    color: grey;
+    text-transform: uppercase;
+}
+
+.form-row > input {
+    display: inline-block;
+    width: 100%;
+    font-size: 20px;
+    line-height: 30px;
+    border: none;
+    border-bottom: 2px solid #e6e6e6;
+}
+
+.form-row > input:focus {
+    outline: none;
+}
+
+.second-row {
+    display: inline-block;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.sec-row-top > span {
+    display: inline-block;
+    font-size: 12px;
+    color: grey;
+    padding-left: 10px;
+}
+
+.sec-row-bottom > button {
+    float: left;
+    font-size: 18px;
+    background-color: #00b88f;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 14px;
+    border: none;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+
+.sec-row-bottom > span {
+    float: left;
+    font-size: 18px;
+    padding: 5px;
+    margin-top: 10px;
+    padding-left: 10px;
+    color: grey;
+}
+
+.sec-row-bottom > a {
+    float: left;
+    font-size: 18px;
+    padding: 5px;
+    margin-top: 10px;
+    color: #00b88f;
+    text-decoration: none;
+}
+
+.sec-row-bottom > a:hover {
+    text-decoration: underline;
+}
