@@ -1,7 +1,7 @@
 # Authentication
 This project is for educational purposes only.
 
-Site published at:
+Site published at: https://nikkeir.github.io/SignUp_nd2/
 ## Project features
 - HTML
 - CSS
