@@ -22,7 +22,7 @@
             <form class="form">
                 <div class="form-row">
                     <label for="username">Username</label>
-                    <input id="username" type="text" required>
+                    <input id="username" type="text" required minlength="4">
                 </div>
                 <div class="form-row">
                     <label for="email">Email</label>
@@ -30,19 +30,19 @@
                 </div>
                 <div class="form-row">
                     <label for="password">Password</label>
-                    <input id="password" type="password" required>
+                    <input id="password" type="password" required minlength="8">
                 </div>
                 <div class="form-row">
-                    <label for="password">Repeat password</label>
-                    <input id="password" type="password" required>
+                    <label for="confpassword">Confirm password</label>
+                    <input id="confpassword" type="password" required minlength="8"> 
                 </div>
                 <div class="second-row">
                     <div class="sec-row-top">
-                        <input type="checkbox">
+                        <input type="checkbox" required>
                         <span>By signing up I agree with terms and conditions</span>
                     </div>
                     <div class="sec-row-bottom">
-                        <button type="submit">Sign Up</button>
+                        <button class="btn" type="submit">Sign Up</button>
                         <span>or</span>
                         <a href="#">Log in</a>
                     </div>
